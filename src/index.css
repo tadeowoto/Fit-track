@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+@theme {
+  /* === COLORES PRINCIPALES === */
+
+  /* Backgrounds */
+  --color-bg-default: hsl(220 14% 12%); /* muy oscuro, casi negro azulado */
+  --color-bg-secondary: hsl(220 14% 18%); /* un poco más claro */
+  --color-bg-accent: hsl(280 85% 30%); /* morado neón fuerte */
+
+  /* Textos */
+  --color-text-primary: hsl(0 0% 95%); /* blanco humo */
+  --color-text-secondary: hsl(0 0% 70%); /* gris claro */
+  --color-text-accent: hsl(280 85% 70%); /* morado neón más claro */
+
+  /* Botones y highlights */
+  --color-primary-500: hsl(280 85% 50%); /* morado neón medio */
+  --color-primary-700: hsl(280 85% 35%); /* morado neón oscuro */
+  --color-secondary-500: hsl(190 80% 45%); /* azul neón */
+
+  /* Estados */
+  --color-success: hsl(140 60% 50%);
+  --color-warning: hsl(40 90% 60%);
+  --color-error: hsl(0 75% 55%);
+
+  /* Bordes y sombras */
+  --color-border: hsl(220 14% 25%);
+  --color-shadow: hsla(280 85% 30% / 0.5);
+
+  /* === TIPOGRAFÍA === */
+
+  /* Fuentes */
+  --font-sans: "Montserrat", "Poppins", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: "Oswald", "Anton", "Arial Black", sans-serif;
+
+  /* Tamaños base (usados en utilities) */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.5rem; /* 24px */
+  --font-size-2xl: 2rem; /* 32px */
+  --font-size-3xl: 3rem; /* 48px */
+}
