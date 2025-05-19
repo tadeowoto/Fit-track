@@ -23,6 +23,11 @@
   --color-warning: hsl(40 90% 60%);
   --color-error: hsl(0 75% 55%);
 
+  /* Highlight Colors */
+  --color-highlight-green: #03ff88; /* Verde neón brillante */
+  --color-highlight-red: #f4375d; /* Rosa neón fuerte */
+  --color-highlight-blue: #2496b6; /* Azul neón claro */
+
   /* Bordes y sombras */
   --color-border: hsl(220 14% 25%);
   --color-shadow: hsla(280 85% 30% / 0.5);
