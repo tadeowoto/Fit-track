@@ -1,8 +1,11 @@
+import { Layout } from "./layouts/Layout";
+import { Main } from "./components/Main";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Fit Track</h1>
-    </>
+    <Layout>
+      <Main />
+    </Layout>
   );
 }
 

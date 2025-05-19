@@ -4,8 +4,8 @@
   /* === COLORES PRINCIPALES === */
 
   /* Backgrounds */
-  --color-bg-default: hsl(220 14% 12%); /* muy oscuro, casi negro azulado */
-  --color-bg-secondary: hsl(220 14% 18%); /* un poco más claro */
+  --color-bg-default: #121212; /* muy oscuro, casi negro azulado */
+  --color-bg-secondary: #1e1e1e; /* un poco más claro */
   --color-bg-accent: hsl(280 85% 30%); /* morado neón fuerte */
 
   /* Textos */
