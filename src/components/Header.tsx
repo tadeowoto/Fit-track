@@ -3,7 +3,7 @@ import { Bars3Icon } from "@heroicons/react/16/solid";
 
 export const Header = () => {
   return (
-    <header className="w-full h-16 p-2 flex items-center justify-between bg-bg-secondary">
+    <header className="fixed top-0 w-full h-16 p-2 flex items-center justify-between bg-bg-secondary border-b border-border">
       <div className="flex items-center gap-2 text-primary-500">
         <HeaderButton />
         <h1 className="text-text-primary text-2xl font-bold">FitTrack</h1>
