@@ -1,5 +1,6 @@
 import { StatCard } from "./StatCard";
 import { RecentWorkouts } from "./RecentsWorkouts";
+import { Stats } from "./Stats";
 
 export const Main = () => {
   return (
@@ -15,9 +16,8 @@ export const Main = () => {
         />
         <StatCard title="Días" typeOfCard="days" value={30} />
       </section>
-      <section>
-        <RecentWorkouts />
-      </section>
+      <RecentWorkouts />
+      <Stats />
     </main>
   );
 };

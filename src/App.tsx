@@ -1,11 +1,14 @@
 import { Layout } from "./layouts/Layout";
 import { Main } from "./components/Main";
+import { StatsProvider } from "./context/StatsContext";
 
 function App() {
   return (
-    <Layout>
-      <Main />
-    </Layout>
+    <StatsProvider>
+      <Layout>
+        <Main />
+      </Layout>
+    </StatsProvider>
   );
 }
 
