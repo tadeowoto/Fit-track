@@ -1,4 +1,5 @@
 import { StatCard } from "./StatCard";
+import { Recent } from "./Recent";
 
 export const Main = () => {
   return (
@@ -13,6 +14,9 @@ export const Main = () => {
           value={120}
         />
         <StatCard title="Días" typeOfCard="days" value={30} />
+      </section>
+      <section>
+        <Recent />
       </section>
     </main>
   );
