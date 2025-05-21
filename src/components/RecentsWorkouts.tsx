@@ -1,6 +1,6 @@
 import WorkoutCard from "./WorkoutCard";
 import { workoutsLogs } from "../mock/WorkoutsData";
-import type { Workout } from "../types/types";
+import type { Workout } from "../types/WorkoutsTypes";
 
 export const RecentWorkouts = () => {
   return (

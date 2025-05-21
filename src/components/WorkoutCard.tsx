@@ -1,4 +1,4 @@
-import type { Workout } from "../types/types";
+import type { Workout } from "../types/WorkoutsTypes";
 import { format } from "date-fns";
 
 type Props = {
